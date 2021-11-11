@@ -68,10 +68,13 @@ elif inputtxt == "doorslapen":
                 verhaal_huiswerkmaken()
             elif inputtxt == "chillen":
                 verhaal_gamenenanderechilledingendoen()
+                inputtxt = input()
                 if inputtxt == "opstandig zijn":
                     verhaal_opstandigmetjeouderszijn()
                 elif inputtxt == "luisteren":
                     verhaal_naarjeoudersluisteren()
+                else :
+                    print("!!")
 
 
         
